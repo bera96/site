@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+}
+
+
+.board h5{
+    color: #ffffff;
+    font-size: 17.5px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.board p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.video-btn-video-popup{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top:6rem;
+    left:11rem;
+    opacity: 0.7;
+}
+.container{
+    color: #f6f6f6;
+    display: flex;
+}
+#plybtn{
+    width: 200px;
+    height: 200px;
+}
+
+.fa-facebook-f{
+    color: #0054a6;
+   
+
+}
+.fa-facebook-f:hover{
+    color: #ffffff; 
+}
+.fa-youtube{
+    color: #c4302b;
+}
+.fa-youtube:hover{
+    color: #ffffff;
+}
+.fa-twitter{
+    color: #38a1f3;
+}
+.fa-twitter:hover{
+    color: #ffffff;
+}
+.fa-google-plus-g{
+    color: #cc3333;
+}
+.fa-google-plus-g:hover{
+    color: #ffffff;
+}
+.fa-location-arrow{
+    color: white;
+    background-color: #002147;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #002147;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+   
+    
+    
+
+    
+}
+.fa-clock{
+    color: white;
+    background-color: #002147;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #002147;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+}
+#footer .fa-twitter{
+    color: #38a1f3;
+    background-color: white  ;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #002147;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+}
+#footer .fa-linkedin{
+    color: #0077B5;
+    background-color: white  ;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #002147;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+}
+#footer .fa-facebook-f{
+    color: #3B5999 ;
+    background-color: white  ;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #002147;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+}
+#footer .fa-home{
+    margin-left: 7rem;
+    color: #343A40 ;
+    background-color: white  ;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #002147;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+}
