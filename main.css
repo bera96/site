@@ -1055,7 +1055,7 @@
     color: white;
 }
 #details-search input{
-    
+    color: white;
     width: 34rem;
     height: 3rem;
     font-size: 16px;
@@ -2292,7 +2292,7 @@ td:nth-child(1){
     width : 2.5rem;
     line-height: 40px;
 }
-
+#pp-mobile-img{ display: none;}
 #pp-tablet-img{display: none;}
 #pp-bg{
      background-color: whitesmoke;
