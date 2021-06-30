@@ -1,4 +1,5 @@
 @media   (min-width: 320px) and (max-width: 480px)  {
+
     /*       NAV      */
 
 #nav-sec{
@@ -2442,5 +2443,312 @@ height: 2rem;
     line-height: 23px;
     color: #002147;
 }
+/*        COURSE DETAILS END          */
 
+ /*        PYTHON PAGE     START       */
+ #top-menu-container{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    
+}
+#top-menu{
+    
+    margin: 0 auto;
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    
+    background-color: whitesmoke;
+    align-items: center;
+
+}
+#top-menu a{
+    text-decoration: none;
+}
+#top-menu-form{
+    display: none;
+    width: 15rem;
+    margin-left: 5rem;
+}
+#back-btn{
+    
+    padding:0.4rem 0.90rem;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    color: #212529;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all ease 0.3s;
+}
+#back-btn:hover{
+    background-color: rgba(253, 187, 100,0.2);
+}
+#back-btn i{
+    color: #212529;
+    margin-right: 0.30rem;
+}
+#top-menu ul{
+    
+    display: flex;
+    list-style: none;
+}
+#top-menu li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    
+    margin: 0 0.40rem;
+}
+#top-menu li a{
+    color: rgba(0, 0, 0, 0.5);
+}
+#top-menu li a:hover{
+    color:#002147;
+}
+#top-menu-input-group{
+    margin-right: 24rem;
+    display: flex;
+    
+    
+   
+}
+#top-menu-input-group input{
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    width: 13rem;
+    outline: none;
+    padding-left: 0.60rem;
+    height: 2.5rem;
+    transition: all ease-in-out 0.15s;
+}
+#top-menu-input-group input:focus{
+    border:1px       solid #fdbb18;
+    box-shadow: 0 0 10px#fdbb18;
+}
+#top-menu-input-append button{
+    outline: none;
+    border: none;
+}
+#top-menu-input-append i{
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    font-size: 16px;
+    color: black;
+    background-color: #fdbb18;
+    height: 2.5rem;
+    width : 2.5rem;
+    line-height: 40px;
+}
+#pp-main-img{display: none;}
+#pp-tablet-img{
+    display: none;
+    margin-top: 3rem;
+}
+#pp-mobile-img{
+    margin-top: 3rem;
+}
+#pp-bg{
+     background-color: whitesmoke;
+     margin-top: 0.5rem;
+     height: 100%;
+ }
+ #pp-container{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+   
+}
+#article-aside-container{
+    width: 100%;
+    display: flex;
+}
+#article-title{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    
+}
+#article-title a{
+   
+    margin-left: 3rem;
+}
+#article-title a i{
+    margin-bottom: 12rem;
+    font-size: 16px;
+    margin-right: 2rem;
+    line-height: 24px;
+}
+#article-title h1{
+    color: #002147;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    
+}
+#article-vote-flex{
+    margin-bottom: 12rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+#article-vote-flex button{
+    border: none;
+    background: none;
+}
+#article-vote-flex i{
+    font-size: 16.8px;
+    line-height: 25px;
+   
+}
+#article-vote-flex .fa-sort-up{
+    padding-top: 0.70rem;
+    padding-right: 0.80rem;
+}
+#article-vote-flex .fa-sort-down{
+    padding-bottom: 0.40rem;
+    padding-left: 0.80rem;
+}
+#article-title .fa-star{
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(102, 102, 102, 0.7);
+}
+#article-bottom-flex{
+   
+    align-items: center;
+    text-align: center;
+    margin-top: 0.2rem;
+    display: flex;
+}
+#article-bottom-flex i{
+    margin-left: 13rem;
+    font-size: 16px;
+}
+#article-bottom-text{
+    display: flex;
+    flex-direction: column;
+}
+#article-bottom-text a{
+    text-decoration: none;
+}
+#article-bottom-span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(102, 102, 102);
+}
+#article-bottom-time{
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 14px;
+    color: rgba(102, 102, 102, 0.7);
+}
+#article-camera img{
+    width: 1.75rem;
+    height: 1.75rem;
+}
+#article-comment-share-flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+}
+
+#article-comment-share-flex i{
+    
+    font-size: 12px;
+    
+}
+#comment-link{
+    padding: 0.05rem 0.5rem;
+    border:1px solid gainsboro;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#share-link{
+    padding: 0.05rem 0.5rem;
+    border-top:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#pp-article{
+   margin-left: 1rem;
+}
+#pp-aside{
+    display: none;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+#person-info-text{
+    margin-left: 0.5rem;
+}
+#person-info{
+    align-items: center;
+    text-align: left;
+}
+#person-info a{
+    text-decoration: none;
+    display: flex;
+    
+}
+#person-info h6{
+    color: #002147;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+#person-info small{
+    color: rgba(102, 102, 102, 0.7);
+    font-weight: 700;
+    font-size: 11.2px;
+}
+#person-info img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+#my-posts,#favourites,#followed-posts,#followed-tags{
+    align-items: center;
+    margin-top: 1rem;
+}
+#my-posts a,#favourites a ,#followed-posts a,#followed-tags a{
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: rgb(102, 102, 102)
+}
+#my-posts i,#favourites i ,#followed-posts i,#followed-tags i{
+    margin-right: 0.5rem;
+}
+#favourites i{
+    color: #666;
+}
+#my-posts a:hover > i {
+    color: black;
+    
+}
+#favourites a:hover > i{
+    color: black
+}
+#followed-posts a:hover > i{
+    color: black
+}
+#followed-tags a:hover > i{
+    color: black
+}
+#space{
+    height: 14.05rem;
+    display: none;
+}
 }

@@ -15,6 +15,7 @@
     <title>Courses</title>
 </head> 
 <body>
+    
     <header id="nav-sec">
         <nav id="nav">
             <div id="logo-holder">
@@ -51,9 +52,12 @@
     </section>
     <section id="pp-bg">
         <div id="pp-overlay">
-            <img src="./img/pprogramming.png" alt="">
+            <img id="pp-main-img" src="./img/pprogramming-main.png" alt="">
+            <img id="pp-tablet-img" src="./img/pprogramming.png" alt="">
+            <img id="pp-mobile-img" src="./img/pprogramming-mobile.png" alt="">
         </div>
     </section>
+    
     <section id="top-menu-container">
         <div id="top-menu">
             <a id="back-btn" href=""><i class="fas fa-chevron-left"></i>Back</a>
@@ -65,7 +69,7 @@
                 <li><a href="">About</a></li>                                        
             </ul>  
             
-        <form action="" role="search" method="GET" >
+        <form  id="top-menu-form"   action="" role="search" method="GET" >
             <div id="top-menu-input-group">
                 <input type="search" name="search" placeholder="Search...">
                 <div id="top-menu-input-append">
@@ -80,7 +84,9 @@
                 
             
         </div>
+        
     </section>
+    
     <section id="pp-container">
         <div id="article-aside-container">
             <div id="pp-article">
@@ -128,6 +134,7 @@
                    
                 </div>
             </div>
+           
             <div id="pp-aside">
                 <div id="person-info">
                     <a href="">
@@ -158,8 +165,10 @@
                 </div>
                 
             </div>
+        
         </div>
     </section>
+
     <div id="space"></div>
     <footer>
         <div id="footer">
@@ -209,6 +218,7 @@
         </div>
        
     </footer>
+    
     <script src="nav.js"></script>
 </body>
 </html>

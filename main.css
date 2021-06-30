@@ -2293,6 +2293,7 @@ td:nth-child(1){
     line-height: 40px;
 }
 
+#pp-tablet-img{display: none;}
 #pp-bg{
      background-color: whitesmoke;
      margin-top: 0.5rem;
