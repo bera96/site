@@ -2548,6 +2548,9 @@ td:nth-child(1){
 #blog-top-menu li{
     padding-left: 1rem ;
 }
+#blog-top-menu b:hover{
+    color: #002147;
+}
 #blog-top-menu ul span{
     font-size: 14px;
     font-weight: 400;
