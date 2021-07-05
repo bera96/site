@@ -138,11 +138,14 @@
 }
 #clr-brd{
     
-    margin-right: 1.5rem;
+    margin-right: 2.2rem;
     margin-left: 1.5rem;
     bottom: 5rem;
     display: flex;
     position:relative;
+}
+#clr-brd i{
+    color: #f2f2f2;
 }
 .brd-icon{
 
@@ -505,7 +508,7 @@
 }
 #dep-text-cont{
     background-image: url(./img/testi.png);
-    
+    height: 28.125rem   ;
     max-width: 50%;
     
 }
