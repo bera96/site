@@ -4,13 +4,20 @@
 
 
 /*       NAV      */
+
+.responsive{
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+}
 #nav{
-    display:flex;
+    
+    display: flex;
     background-color: #f9f9f9;
     width: 100%;
     height: 3.5rem;
     align-items: center;
-    justify-content:space-between ;
+    justify-content: center;
     position: fixed;
     z-index: 1;
     position: absolute;
@@ -21,10 +28,21 @@
     
 
 }
+#nav-flex{
+    
+    display: flex;
+    justify-content: center;
+}
 #logo{
     width: 150px;
     height: 40px;
-    margin-left:  200px;;
+   
+    
+}
+#logo-holder{
+    
+}
+#button-holder{
     
 }
 .nav-toggle{
@@ -32,21 +50,24 @@
 }
 #wrapper-nav-ul{
     
-    
+    display: none;
 
     
 }
 #nav-ul{
+    
+    
     z-index: 1;
     position: relative;
     top: 0.25rem;
-    margin-left: 35rem;
+    
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 }
 #nav-ul li{
-    display: flex;
+    
     font-size: 14px;
     font-weight: 400;
     padding: 1rem;
@@ -56,9 +77,15 @@
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
 }
+#Cntct-btn{
+    margin-left: auto;
+    width: 100%;
+    
+}
 #Cntct-btn a{
+    
     color: #212529;
-    margin-right: 200px;
+    
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
@@ -70,13 +97,50 @@
 /*     NAV END    */
 
 /*      MAIN PAGE     */
+#main-page-holder{
+   
+    height: auto;
+   
+  
+    width: 100%;
+}
+#main-page{
+    
+    align-items: center ;   
+    width: 100%;
+}
+#main-pagebg{
+    max-height: 885.271px;
+    display: block;
+    width: 100%;
+    background:url("slider-2.jpg") no-repeat ;
+   
+    
+    background-size: cover;
+}
+#main-pagebg img{
+    height: 80vh;
+    width: 100%;
+}
+
 #main-text{
-    position: absolute;
-    top:24rem;
-    left:24rem;
+
+    max-width: 40rem;
+    text-align: center;
     
 }
+#main-text-flex{
+    
+   align-items: center;
+    margin-left: 7rem;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
 #main-text h1{
+    text-align: left;
+    width: 70%;
     line-height: 21px;
     color: #ffffff;
     font-size: 35px;
@@ -84,20 +148,25 @@
     padding-bottom: 2rem;
 }
 #main-text p{
-    max-width: 45%;
+    text-align: left;
+    width: 100%;
     color: #ffffff;
     font-size: 18px;
     padding-bottom: 3rem;
     line-height: 27px;
 }
 #main-bckgrnd{
+    width: 100%;
     position: relative;
 }
 #main-bckgrnd img{
     width: 100%;
     height: 890px;    
 }
-
+#main-btns{
+    text-align: left;
+    width: 70%;
+}
 #main-btns #a1{
     font-weight: 700;
     line-height: 25px;
@@ -129,10 +198,13 @@
 #main-btns #a2:hover{
     color: #ffffff;
 }
+#student{
+   max-width: 28rem;
+   margin-top: 8rem;
+}
 #student img{
-    position: absolute;
-    top: 6rem;
-    left: 60rem;
+   
+   
     width: 740px;
     height: 757px;
 }
@@ -155,7 +227,7 @@
     color: #f6f6f6;
 }
 .board{
-    
+    width: 100%;
     display: flex;
 }
 #h-1{
@@ -193,13 +265,23 @@
 /*   MAIN PAGE END   */
 
 /*    ABOUT      */
+
 .container{
-    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+   
 }
 #about{
-    margin-top: 2rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
+    
+    align-items: center;
+    
+}
+#about-flex{
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    
 }
 #border-left{
     text-align: left;
@@ -253,20 +335,32 @@
 }
 #about-text{
     
-    max-width: 50%;
+   max-width: 34rem;
 }
 #about-link{
-    margin-left: 1.5rem;
+    max-width: 28.5%;
+   
+}
+#about-link img{
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
 }
 #banner1{
-    position: absolute;
-    width: 540px;
-    height: 361px;
+    
+   
+    
 }
 
 /*      ABOUT END        */
 
 /*      COURSES          */
+#courses-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 55rem;
+}
+
 #courses{
     margin-top: 10rem;
     position: relative;
@@ -432,7 +526,14 @@
 /*       COURSES END       */
 
 /*       ACHIEVE           */  
+#achieve{
+    width: 100%;
+    align-items: center;
+    text-align: ce;
+}
+
 #our-achieve{
+    width:100%;
     margin-top:  5rem;
     margin-left: 25rem;
     text-align: left;
@@ -442,6 +543,7 @@
     padding-right: 1.25rem;
 }
 #our-achieve h2{
+    width: 100%;
     line-height: 57.6px;
     font-weight: 700;
     font-size: 48px;
@@ -449,6 +551,7 @@
     margin-bottom: 1rem;
 }
 #our-achieve span{
+    width: 100%;
     line-height: 57.6px;
     font-weight: 400;
     font-size: 48px;
@@ -504,12 +607,12 @@
     display: flex;
     margin-left: 25rem;
     margin-right: 20rem;
-    max-width: 58%;
+    max-width: 50%;
 }
 #dep-text-cont{
     background-image: url(./img/testi.png);
     height: 28.125rem   ;
-    max-width: 50%;
+    width: 100%;
     
 }
 #dep-img{
@@ -1359,7 +1462,7 @@
     position: relative;
     
     background-color: whitesmoke ;
-    width: 815px;
+    width: 82%;
     height: 86px;
 }
 #search button{
