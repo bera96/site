@@ -1274,10 +1274,10 @@
     max-width: 71.25rem;
 }
 #pagebg-row{
-    left: 3rem;
-    top:7rem;
-    position: absolute;
-    
+    position: relative;
+}
+#pagebg-details-row{
+   position: relative;
 }
 #pagebg-row h1{
     font-size: 40px;
@@ -1285,10 +1285,26 @@
     line-height: 48px;
     text-align: left;
     color: white;
-   
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
     
 }
-
+#pagebg-details-row h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    bottom: 7rem;
+    left: 4rem;
+    
+    
+}
+#pagebg-details-container{
+    position: relative;
+}
 #page-bg #main-img{
     display: none;
     width: 100%;
@@ -1302,9 +1318,9 @@
     height: 15.5rem; 
 }
 #details-search{
-    top: 10rem;
+    bottom: 3rem;
     position: absolute;
-    left: 3rem;
+    left: 4rem;
 }
 #details-search input{
     

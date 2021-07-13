@@ -1204,9 +1204,10 @@
     margin-right: auto;
     max-width: 71.25rem;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap-reverse ;
-    justify-content: flex-start;
+    
+  
 }
 #pagebg-transparent{
     background-image: url("./img/inner-pagebg.jpg");
@@ -1215,11 +1216,13 @@
     height: 12.1rem;
     
 }
+#pagebg-details-row{
+    
+   margin-right: 8rem; 
+    
+}
 #pagebg-row{
-    
-    top: 6.3rem;
-    position: absolute;
-    
+    margin-right: 8rem; 
 }
 #pagebg-row h1{
     font-size: 40px;
@@ -1227,6 +1230,21 @@
     line-height: 48px;
     text-align: left;
     color: white;
+    position: absolute;
+    
+    top: 6rem;
+   
+}
+
+#pagebg-details-row h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    right:56%;
+    top: 6rem;
    
     
   
@@ -1241,14 +1259,16 @@
     display: none;
 }
 #details-search{
-    
+    left: 49%;
+    top: 6rem;
+    position: absolute;
 }
 #details-search i{
     color: white;
 }
 #details-search input{
     color: white;
-    width: 34rem;
+    width: 30rem;
     height: 3rem;
     font-size: 16px;
     font-weight: 400;
@@ -1257,8 +1277,10 @@
     border: 1px white solid;
     outline: none;
     position: relative;
+    margin-left: 3rem;
 }
 #details-search button{
+    position: absolute;
     cursor: pointer;
     right:0.2rem;
     font-size: 16px;
@@ -1321,7 +1343,7 @@
 #aside{
     
     
-    max-width: 10%;
+    max-width: 15%;
     border-right: solid 1px gainsboro;
 }
 #aside h5{
