@@ -2,6 +2,7 @@
     /*       NAV      */
 
 #nav{
+    
     overflow: hidden;
     display:flex;
     background-color: #f9f9f9;
@@ -21,6 +22,9 @@
         
     
 
+}
+#nav-ulx{
+    display: none;
 }
 #logo{
     width: 150px;
@@ -49,7 +53,7 @@
     visibility: hidden;
 }
 #nav-ul{
-   
+   padding-top: 1rem;
    height: 0;
     
     
@@ -88,14 +92,45 @@
 /*     NAV END    */
 
 /*      MAIN PAGE     */
+#main-page-holder{
+   
+    height: auto;
+   
+  
+    width: 100%;
+}
 #main-page{
-    overflow: hidden;
+    
+    align-items: center ;   
+    width: 100%;
+}
+#main-pagebg{
+    height: 40rem;
+    display: block;
+    width: 100%;
+    background:url("slider-2.jpg") no-repeat ;
+   
+    
+    background-size: cover;
+}
+#main-pagebg img{
+    
 }
 #main-text{
+    margin-left: 2rem;
+    margin-top: 15rem;
+    max-width: 40rem;
+    text-align: left;
     
-    position: absolute;
-    top: 15rem;
-    left: 2.25rem;
+}
+#main-text-flex{
+    
+    align-items: center;
+   
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
 }
 #main-text h1{
     line-height: 12px;
@@ -133,6 +168,10 @@
 
 
 }
+#main-btns{
+    text-align: left;
+    width: 70%;
+}
 #main-btns #a1:hover{
     background-color: #ffffff;
     color: #002147
@@ -157,10 +196,10 @@
 #student img{
     overflow: hidden;
     position: absolute;
-   top: 12rem;
+   top: 10rem;
    
-    left: 22rem;
-    width: 450px;
+    left: 23rem;
+    width: 400px;
     height: 450px;
     
     
@@ -226,13 +265,20 @@
 
 /*    ABOUT      */
 .container{
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
 }
 #about{
     margin-top: 2rem;
     margin-left: 2.5rem;
     margin-right: 2rem;
+}
+#about-flex{
+    height: 21rem;
+    display: flex;
+   
+    
 }
 #border-left{
     max-width: 100%;
@@ -310,9 +356,11 @@
 
 /*      COURSES          */
 #courses{
-    width: 100%;
-    margin-top: 10rem;
+    height: 55rem;
+    margin-top: 6rem;
+    padding: 4rem 0;
     position: relative;
+    background-image: url("./img/bg-1.jpg");
     
 }
 #courses-bg{

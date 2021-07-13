@@ -40,7 +40,8 @@
 }
 .nav-toggle {
     color:rgba(0, 0, 0, 0.5);
-    font-size: 1.5rem;
+   
+    
     background: transparent;
     border-color: transparent;
     cursor: pointer;
@@ -64,7 +65,9 @@
     
     
 }
-
+#nav-ulx{
+    display: none;
+}
 .show-links {
     
     height: 30rem;
@@ -106,16 +109,33 @@
 /*     NAV END    */
 
 /*      MAIN PAGE     */
+#main-page-holder{
+   
+    height: auto;
+   
+  
+    width: 100%;
+}
 #main-page{
     
-    overflow: hidden;
-        
+    align-items: center ;   
+    width: 100%;
+}
+#main-pagebg{
+    height: 45rem;
+    display: block;
+    width: 100%;
+    background:url("slider-2.jpg") no-repeat ;
+   
+    
+    background-size: cover;
 }
 #main-text{
     
-    position: absolute;
-    top: 8.5rem;
-    left: 1rem;
+    
+   position: absolute;
+   margin-top: 8rem;
+   margin-left: 1rem;
 }
 #main-text h1{
     line-height: 12px;
@@ -341,9 +361,11 @@
     width: 100%;
 }
 #courses{
-    width: 100%;
-    margin-top: 10rem;
+    height: 133rem;
+    margin-top: 16rem;
+    padding: 4rem 0;
     position: relative;
+    background-image: url("./img/bg-1.jpg");
     
 }
 #courses-bg{

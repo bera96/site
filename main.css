@@ -54,7 +54,7 @@
 
     
 }
-#nav-ul{
+#nav-ulx{
     
     
     z-index: 1;
@@ -66,14 +66,14 @@
     justify-content: center;
     
 }
-#nav-ul li{
+#nav-ulx li{
     
     font-size: 14px;
     font-weight: 400;
     padding: 1rem;
     list-style: none;
 }
-#nav-ul li a{
+#nav-ulx li a{
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
 }
@@ -338,6 +338,7 @@
    max-width: 34rem;
 }
 #about-link{
+    padding-left: 3rem;
     max-width: 28.5%;
    
 }
@@ -362,23 +363,26 @@
 }
 
 #courses{
-    margin-top: 10rem;
+    margin-top: 6rem;
+    padding: 4rem 0;
     position: relative;
+    background-image: url("./img/bg-1.jpg");
     
 }
 #section-container{
-    position: absolute;
-    top: 7rem;
-    margin-left: 25rem;
+    
+    
+    
 }
 #courses-holder{
     display:flex;   
-    
+    justify-content: center;
+    width: 100%;
     
 }
 
 #courses-text{
-    width: 50%  ;
+    max-width: 50%  ;
     text-align: left;
     border-left: 2px solid #fdbb18;
     margin-bottom: 6rem;
@@ -399,6 +403,7 @@
     color: #002147;
 }
 #courses-text p{
+    max-width: 70%;
     color: #666666;
     font-size: 14px;
     line-height: 21px;
@@ -406,7 +411,7 @@
     padding-right: 2rem;
 }
 #courses-btn{
-    margin-left: 15rem;
+   padding-left: 2rem;
 }
 #courses-btn a{
     margin-top: 2rem;
@@ -424,7 +429,9 @@
     
 }
 #img-container{
+    
     display: flex;
+    justify-content: center;
 }
 .img-text{
     
@@ -451,7 +458,7 @@
     text-align: left;
 }
 .img-holder{
-    margin: 1rem;
+    padding: 1rem;
 }
 .img-holder img{
    width: 100%;
@@ -529,20 +536,29 @@
 #achieve{
     width: 100%;
     align-items: center;
-    text-align: ce;
+    
 }
-
+#achieve-container{
+  
+}
+#our-achieve-flex{
+    
+    display: flex;
+    justify-content: center;
+   
+}
 #our-achieve{
-    width:100%;
+   
+    width: 70rem;
     margin-top:  5rem;
-    margin-left: 25rem;
-    text-align: left;
+
     border-left: 2px solid #fdbb18;
     margin-bottom: 6rem;
     padding-left: 1.5rem;
     padding-right: 1.25rem;
 }
 #our-achieve h2{
+    
     width: 100%;
     line-height: 57.6px;
     font-weight: 700;
@@ -557,20 +573,25 @@
     font-size: 48px;
     color: #002147;
 }
+#empty-flex{
+    max-width:30rem;
+    background: white;
+}
 #our-achieve p{
-    width: 30%;
+    width: 45%;
     font-size: 14px;
     color: #666666;
     line-height: 21px;
     text-align: left;
 }
 #achieve-row{
-    margin-left: 23rem;
+    
     display: flex;
+    justify-content: center;
 }
 #achieve-row img{
-    
-    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-left: 4rem;
 }
 #quote-right{
     right: 2rem; 
@@ -605,20 +626,23 @@
     margin-bottom: 5rem;
     margin-top: 5rem;
     display: flex;
-    margin-left: 25rem;
-    margin-right: 20rem;
-    max-width: 50%;
+    justify-content: center;
+    
+    max-width: 100%;
 }
 #dep-text-cont{
     background-image: url(./img/testi.png);
     height: 28.125rem   ;
-    width: 100%;
+    width: 600px;
+    height: 426px;
     
 }
 #dep-img{
-    max-width: 50%;
+    max-width: 30rem;
 }
 #dep-img img{
+    width: 600px;
+    height: 426px;
     object-fit: fill;
 }
 #dep-text{
@@ -661,12 +685,21 @@
 /*       ACHIEVE END          */
 
 /*       TEACHER             */
+#teacher-cont{
+    display: flex;
+    justify-content: center;
+}
 #teacher{
     padding: 1rem;
+    
+}
+#empty-teacher-flex{
+    width: 35rem;
 }
 #teacher-text{
     border-left: 2px solid #fdbb18;
-    margin-left: 25rem;
+    width: 35rem;
+    
 }
 #teacher-text h2{
     color: #002147;
@@ -692,9 +725,10 @@
     padding-left: 1.5rem ;
 }
 #teacher-holder{
+    margin-bottom: 4rem;
     margin-top: 3rem;
-    margin-left: 23rem;
     display: flex;
+    justify-content: center;
 }
 .teacher-img{
     padding-left: 2.5rem;
@@ -793,13 +827,19 @@
 /*         TEACHER END         */
 
 /*         EVENT               */
-
+#event-cont{
+    display: flex;
+    justify-content: center;
+}
+#empty-event{
+    width: 30rem;
+}
 #event-text{
     text-align: left;
     border-left: 2px solid #fdbb18;
-    padding-left: 1.5rem;
+    
     padding-right: 1.25rem;
-    margin-left: 25rem;
+    width: 40rem;
     margin-top: 5rem;
 }
 #event-text h2{
@@ -839,8 +879,9 @@
 }
 #event-img-holder{
     display: flex;
+    justify-content: center;
     margin-top: 5rem;
-    margin-left: 24rem;
+    margin-bottom: 2rem;
 }
 
 .event-img-text{
@@ -921,13 +962,19 @@
 /*          EVENT END          */
 
 /*          NEWSFEED           */
-
+#newsfeed-cont-flex{
+    display: flex;
+    justify-content: center;
+}
+#empty-newsfeed{
+    width: 40rem;
+}
 #newsfeed-text{
     text-align: left;
     border-left: 2px solid #fdbb18;
     padding-left: 1.5rem;
     padding-right: 1.25rem;
-    margin-left: 25rem;
+    
     margin-top: 5rem;   
 }
 #newsfeed-text h2{
@@ -955,14 +1002,15 @@
 }
 #newsfeed-img-holder{
     display: flex;
+    justify-content: center;
     margin-top: 5rem;
-    margin-left: 25rem;
-    margin-right: 2rem;
+   
+    
     margin-bottom: 5rem;
     
 }
 .newsfeed-img {
-    margin-right: 4rem;
+    margin-right: 2rem;
     overflow: hidden;
     position: relative;
     
@@ -1061,14 +1109,15 @@
 #footer{
     
     bottom: 0;
-   
-    
+  
     background-color: #002147;
 }
 #footer-text{
+    
     padding-top: 2.2rem;
     padding-bottom: 1rem;
     display: flex;
+   justify-content: center;
 }
 #footer-text h5{
     color: #ffffff;
@@ -1078,6 +1127,7 @@
     text-align: left;
 }
 #footer-text p{
+    width: 28rem;
     margin-top: 1rem;
     color: #ffffff;
     font-size: 14px;
@@ -1101,14 +1151,14 @@
     color: #ffffff;
 }
 #useful{
-    margin-left: 25rem;
+  
 }
 #footer-about{
-    width: 22%;
-    margin-left: 5rem;
+   margin-left: 7rem;
+   
 }
 #connect{
-    margin-left: 10rem;
+    margin-left: 7rem;
 }
 #social-media i{
     margin-left: 0.5rem;
