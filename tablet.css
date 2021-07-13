@@ -3000,8 +3000,21 @@ height: 2rem;
 
 /*   PYTHON BLAGE PAGE START    */
 
+#pythonblogpage-top-bg-container{
+   
+    width: 100%;
+}
 #pythonblogpage-top-bg{
 
+    position: relative;
+
+}
+#pythonblogpage-top-bg{
+    background-image: url("./img/cover_1.jpg");
+    background-repeat: no-repeat;
+    height: 40rem;
+    background-position: center;
+    background-size: cover;
     position: relative;
 
 }
