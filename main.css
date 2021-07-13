@@ -1176,26 +1176,63 @@
 /*       OVERLAY          */
 
 
-
-#page-bg{
-    background-color: #002147;
+#overlay{
+    background-image: url("./img/inner-pagebg.jpg");
+    opacity: 1;
     max-width: 100%;
-    height: 12.375rem;
+    height: 12.1rem;
+    overflow: hidden;
+}
+#pagebg{
+
+ background-color: rgb(0, 33, 71);
+ opacity: 0.5;
+ height: 12.1rem;
+ 
     
 }
-#page-bg h1{
+#pagebg-container{
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 71.25rem;
+}
+#pagebg-details-container{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 71.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse ;
+    justify-content: flex-start;
+}
+#pagebg-transparent{
+    background-image: url("./img/inner-pagebg.jpg");
+    opacity: 0.5;
+    max-width: 100%;
+    height: 12.1rem;
+    
+}
+#pagebg-row{
+    
+    top: 6.3rem;
+    position: absolute;
+    
+}
+#pagebg-row h1{
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
     text-align: left;
     color: white;
-    position: absolute;
-    top: 8.5rem;
-    left: 24rem;
-    z-index: 1;
+   
+    
+  
 }
 #page-bg #main-img{
-    max-width: 100%;
+    display: none;
     opacity: 0.5;  
     height: 12.375rem; 
     
@@ -1204,9 +1241,7 @@
     display: none;
 }
 #details-search{
-    top: 8rem;
-    position: absolute;
-    left: 60rem;
+    
 }
 #details-search i{
     color: white;
@@ -1232,20 +1267,35 @@
     height: 3rem;
     border: none;
     background: transparent;
-    position: absolute;
+   
 }
 #details-search ::-webkit-input-placeholder{
     color: white;
 }
 /*      HC-ROW       */
+#HC-row{
+    
+   height: 5rem;
+    width: 100%;
+   
 
+}
+#row{
+    margin: 0 auto;
+    
+    height: 2rem;
+    width:72rem;
+    border-bottom: 1px solid gainsboro;
+    
+}
 #HC-row ul{
     margin-top: 0.88rem;
-    margin-left: 25rem;
-    list-style: none;
     display: flex;
+    list-style: none;
+   
 }
 #HC-row ul a{
+    
     margin-left: 1rem;
     text-decoration: none;
     color: #333;
@@ -1262,16 +1312,16 @@
 /*       MAIN-ASIDE       */
 
 #container{
-    max-width: 100%;
+    width: 100%;
     display: flex;
-    border-top:  solid 1px gainsboro;
+   justify-content: center;
     margin-top: 1rem;
-    margin-left: 25rem;
+    
 }
 #aside{
-    margin-top: 4rem;
-    padding-right: 1.5rem;
-    width: 20%;
+    
+    
+    max-width: 10%;
     border-right: solid 1px gainsboro;
 }
 #aside h5{
@@ -1334,7 +1384,7 @@
     
 }
 #top-name-link{
-    margin-left:  5rem;;
+    margin-left:  5rem;
 }
 #top-name-link a{
     font-size: 14px;
@@ -1365,8 +1415,8 @@
 }
 #rank-rating{
     position: absolute;
-    top: 4rem;
-    left: 5.2rem;
+    top: 2rem;
+    left: 2.8rem;
     text-align: center;
 }
 #rank-rating p{
@@ -1499,7 +1549,7 @@
 
 /*     ARTICLE        */
 #article{
-    margin-top: 4rem;
+   
     margin-left: 2rem;
     margin-bottom: 5rem;
 }
@@ -1780,11 +1830,11 @@ height: 2rem;
 
 #course-details-container{
     display: flex;
- 
+    justify-content: center;
     
     margin-top: 1rem;
     position: relative;
-    border-top: 1px solid gainsboro;
+    
     margin-bottom: 5rem;
     
   

@@ -1267,25 +1267,42 @@
 
 /*       OVERLAY          */
 
+#overlay{
+    background-image: url("./img/inner-page-tabletbg.jpg");
+    opacity: 1;
+    max-width: 100%;
+    height: 12rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+#pagebg{
 
-#page-bg{
-    background-color: #002147;
-    position: relative;
+    background-color: rgb(0, 33, 71);
+    opacity: 0.5;
+    height: 14rem;
+    
+       
+   }
+#pagebg-container{
 
-    height: 15.5rem;
 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 71.25rem;
+}
+#pagebg-row{
+    left: 2rem;
+    top:6rem;
+    position: absolute;
 
-    }
-#page-bg h1{
+}
+#pagebg-row h1{
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
     text-align: left;
     color: white;
-    position: absolute;
-    top: 6.5rem;
-    left: 1rem;
-    z-index: 1;
+    
 }
 
 #page-bg #main-img{
