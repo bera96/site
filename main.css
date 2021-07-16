@@ -24,6 +24,7 @@
         justify-content: center;
         position: fixed;
         z-index: 1;
+        box-shadow:0 0 3px 2px gainsboro;
         
         
         
@@ -3795,7 +3796,7 @@
     justify-content: center;
     display: flex;
     align-items: flex-end;
-    box-shadow:  0.125rem 0.25rem rgb(0, 0, 0, 8%);
+    
     border-top-color: rgb(222,226,230);
     border-top-style: solid;
     border-top-width: 1px;
@@ -4333,6 +4334,275 @@ align-items: center;
         padding: 2.625px 4.2px 2.626px 4.2px;
         text-align: center;
     }
+
+    /* EVENTS PAGE END */
+
+    /* EVENTS DETAILS PAGE START  */
+    #events-details-container{
+        background-color: wheat;
+    }
+
+    #navbar-location{
+        margin-right: 2rem;
+    }
+    #navbar-location a{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    #navbar-location a:hover{
+        color: #002147;;
+    }
+    #navbar-location i{
+        font-size: 12px;
+        color: #fdbb18;
+    }
+    #navbar-title i{
+        color: #fdbb18;
+    }
+    #events-details-background-container{
+     
+     height: 33.25rem;
+    }
+    #events-details-background{
+        position: relative;
+        background-image:url(./img/event_cover_3.jpg) ;
+        height: 33.25rem;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-attachment: fixed;
+        background-size: cover;
+       
+    }
+   #events-details-title{
+       
+       margin:0 auto;
+       width: 71.25rem;
+       height: 12.7rem;
+       padding-top: 3rem;
+       padding-left: 3rem;
+   }
+   #events-details-title h1{
+       color: teal;
+       font-size: 56px;
+       font-weight: 300;
+       
+   }
+   #events-details-title h2{
+       margin-top: 1rem;
+    color: teal;
+    font-size: 20px;
+    font-weight: 300;
+    
+   }
+   #events-details-main{
+    width: 100%;
+    height: auto;
+   }
+   #events-details-content-holder{
+       
+       top: 22rem;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       position: absolute;
+       margin:0 auto;
+       width: 70rem;
+       height: 80rem;
+       background-color: white;
+   }
+   #events-details-content-top{
+       width: 70rem;
+       height: 17rem;
+       
+   }
+   #tickets{
+       
+       height: 3.5rem;
+       
+   }
+   #tickets span{
+       color: rgb(102, 102, 102);
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 55px;
+       margin-left: 2rem;
+   }
+   #tickets-info{
+       height: 9.375rem;
+       background-color: #f9f8f6;
+       border-top: 1px solid gainsboro;
+       border-bottom: 1px solid gainsboro;
+   }
+   #tickets-info h5{
+       
+       color: rgb(33,37,41);
+       font-size: 17.5px;
+       font-weight: 500;
+   }
+   .tickets-select{
+       margin-left:auto ; 
+       margin-right: 1rem;
+   }
+   .tickets-select select{
+      
+       appearance: none;
+       font-size: 16px;
+       padding-left: 10px;
+       border-radius: 5px;
+       width: 51px;
+       height: 38px;
+       background: url(./img/download.svg) no-repeat  right white;
+       background-size: 20%;
+       background-position-x:80%;
+       outline: none;
+   }
+   .tickets-select select:focus{
+    border:1px       solid #fdbb18;
+    box-shadow: 0 0 10px#fdbb18;
+   }
+   .tickets-select option{
+       font-size: 16px;
+       
+   }
+   #tickets-standart{
+       border-bottom: 1px solid gainsboro;
+      padding-left: 1rem;
+       height: 4.687rem;
+       align-items: center;
+       display: flex;
+   }
+   #tickets-vip{
+    margin-left: 1rem;
+    height: 4.687rem;
+       display: flex;
+       align-items: center;
+   }
+   .tickets-text span{
+       color: rgba(33,37,41,0.5);
+       font-size: 11.2px;
+       font-weight: 400;
+   }
+   #ed-register-button{
+       align-items: center;
+       height: 4.125rem;
+       line-height: 65px;
+       display: flex;
+       justify-content: flex-end;
+       margin-right: 0.4rem;
+   }
+  #ed-register-button button{
+    background-color: #fdbb18;
+    border:1px solid #fdbb18;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(33,37,41);
+    padding: 0.5rem 9rem;
+  }
+  #events-details-article-aside-holder{
+      display: flex;
+  }
+  #events-details-article{
+    width: 46.25rem;
+    padding-left: 1rem;
+  }
+  #events-details-article h5{
+      color: rgb(33, 37, 41);
+      font-size: 17.5px;
+      font-weight: 500;
+      
+  }
+  #events-details-article-bottom-text{
+      border-left: 3px solid #002147;
+      height: 5rem;
+      
+      background-color: #f9f8f6;
+      margin-top: 1rem;   
+  }
+  .yt1{
+      padding-top: 1rem;
+      color: rgb(33, 37, 41);
+      font-size: 20px;
+      font-weight: 300;
+
+  }
+  .yt2{
+    padding-top: 1rem;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(33, 37, 41);
+
+  }
+  .yt2 a{
+      text-decoration: none;
+      color: rgb(33, 37, 41);
+  }
+  .yt2 a:hover{
+      color: rgba(180, 140, 10);
+  }
+  .yt3{
+    padding-top: 1.1rem;
+    line-height: 22px;
+    padding-left: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+  #events-details-aside{
+      padding-left: 4rem;
+      background-color: #f9f8f6;
+      width: 23.8125rem;
+      margin-left: 5rem;
+  }
+  #events-details-aside a{
+      text-decoration:none;
+  }
+  #events-details-aside h6{
+      padding-top: 2rem;
+      color: rgba(33,37,41,0.5);
+      font-size: 14px;
+      font-weight: 500;
+  }
+  #events-details-aside h5{
+      padding-top: 1rem;
+      color: rgb(33,37,41);
+      font-size: 17.5px;
+      font-weight: 500;
+  }
+  .st1{
+      line-height: 35px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(33,37,41);
+  }
+  #datetime-flex{
+      display: flex;
+  }
+  .st2{
+    color: rgba(33,37,41,0.7);
+    line-height: 40px;
+      font-size: 11.2px;
+      font-weight: 400;
+  }
+  .st3{
+      color: rgb(33, 37, 41);
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 60px;
+  }
+  #ed-datetime{
+    
+  }
+  #ed-datetime a{
+      padding-left: 0.5rem;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(51, 51, 51);
+  }
+  #ed-datetime a:hover{
+
+  }
     }
     
     /* TABLET VERSION */
@@ -8699,6 +8969,11 @@ align-items: center;
         padding: 2.625px 4.2px 2.626px 4.2px;
         text-align: center;
     }
+    /* EVENTS PAGE END */
+
+    /* EVENTS DETAIL PAGE START  */
+
+    
     }
     
     /* MOBILE VERSION */
