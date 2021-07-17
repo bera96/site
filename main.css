@@ -4339,9 +4339,13 @@ align-items: center;
 
     /* EVENTS DETAILS PAGE START  */
     #events-details-container{
-        background-color: wheat;
+        background-color: #E9ECEF;
+        height: 100rem ;
+        width: 100%;
     }
-
+    #events-details-main{
+      
+    }
     #navbar-location{
         margin-right: 2rem;
     }
@@ -4384,14 +4388,16 @@ align-items: center;
        padding-left: 3rem;
    }
    #events-details-title h1{
-       color: teal;
+       color: white;
+       text-shadow: 2px 2px black;
        font-size: 56px;
        font-weight: 300;
        
    }
    #events-details-title h2{
        margin-top: 1rem;
-    color: teal;
+       text-shadow: 2px 2px black;
+    color: white;
     font-size: 20px;
     font-weight: 300;
     
@@ -4447,16 +4453,17 @@ align-items: center;
    }
    .tickets-select select{
       
-       appearance: none;
-       font-size: 16px;
-       padding-left: 10px;
-       border-radius: 5px;
-       width: 51px;
-       height: 38px;
-       background: url(./img/download.svg) no-repeat  right white;
-       background-size: 20%;
-       background-position-x:80%;
-       outline: none;
+        border:1px solid gainsboro;
+        appearance: none;
+        font-size: 16px;
+        padding-left: 10px;
+        border-radius: 5px;
+        width: 51px;
+        height: 38px;
+        background: url(./img/download.svg) no-repeat  right white;
+        background-size: 20%;
+        background-position-x:80%;
+        outline: none;
    }
    .tickets-select select:focus{
     border:1px       solid #fdbb18;
@@ -4550,7 +4557,7 @@ align-items: center;
     color: rgb(33, 37, 41);
   }
   #events-details-aside{
-      padding-left: 4rem;
+      padding-left: 3rem;
       background-color: #f9f8f6;
       width: 23.8125rem;
       margin-left: 5rem;
@@ -4591,8 +4598,16 @@ align-items: center;
       font-weight: 500;
       line-height: 60px;
   }
+  .st4{
+      color: rgb(33,37,41);
+      font-size: 14px;
+      line-height: 22px;
+
+  }
   #ed-datetime{
-    
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
   }
   #ed-datetime a{
       padding-left: 0.5rem;
@@ -4603,6 +4618,179 @@ align-items: center;
   #ed-datetime a:hover{
 
   }
+  #ed-location{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+  }
+  #ed-location a{
+      color: rgb(51, 51, 51);
+      font-size: 14px;
+      text-decoration: none;
+      padding-left: 0.5rem;
+      margin-top: 1rem;
+  }
+  #ed-location a:hover{
+      color: rgb(200, 140, 120);
+  }
+  #ed-location i{
+      color: black;
+      font-size: 14px;
+  }
+  #direction-container{
+      margin-top: 1rem;
+  }
+  #ed-organizer{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+    
+  }
+  #ed-organizer h4{
+      color: rgb(33, 37, 41);
+      font-size: 21px;
+      font-weight: 500;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+  #ed-organizer i{
+      font-size: 12px;
+      color: black;
+  }
+  #ed-share p{
+      color:rgb(33, 37, 41);
+      font-size: 14px;
+      padding-top: 1rem;
+  }
+  #ed-share i{
+      font-size: 13px !important;
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+      
+    background-color: white  ;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+  }
+  #ed-facebook{
+    color: #3B5999;
+  }
+  #ed-facebook:hover{
+    color: #3B5999;
+    background-color: gainsboro;
+  }
+  #ed-twitter{
+    color: #55ACEE;
+  }
+  #ed-twitter:hover{
+    color: #55ACEE;;
+    background-color: gainsboro;
+  }
+  #ed-linkedin{
+    color: #0077B5;
+  }
+  #ed-linkedin:hover{
+    color: #0077B5;
+    background-color: gainsboro;
+  }
+  #ed-whatsapp{
+    color: #25d366;
+  }
+  #ed-whatsapp:hover{
+    color: #25d366;
+    background-color: gainsboro;
+  }
+  #ed-pinterest{
+    color: #C8232C;
+  }
+  #ed-pinterest:hover{
+    color: #C8232C;
+    background-color: gainsboro;
+  }
+  #ed-envelope{
+    color: black;
+  }
+  #ed-envelope:hover{
+    color: black;
+    background-color: gainsboro;
+  }
+  #ed-social-container{
+      margin-top: 1rem;
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+      justify-content: flex-start;
+      
+  }
+  #ed-social-container a{
+
+  }
+  #ed-footer{
+        
+    bottom: 0;
+  
+    background-color: #002147;
+}
+#footer-text{
+    
+    padding-top: 2.2rem;
+    padding-bottom: 1rem;
+    display: flex;
+   justify-content: center;
+}
+#footer-text h5{
+    color: #ffffff;
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text p{
+    width: 28rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text ul{
+    margin-top: 1rem;
+    list-style: none;
+}
+#footer-text i{
+    color: #ffffff;
+}
+#useful{
+  
+}
+#footer-about{
+   margin-left: 7rem;
+   
+}
+#connect{
+    margin-left: 7rem;
+}
+#social-media i{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    
+}
     }
     
     /* TABLET VERSION */
@@ -8862,6 +9050,7 @@ align-items: center;
 
 
 
+
 /* TAG CONTAINERS */
 #event-section-tags{
 display: flex;
@@ -8970,9 +9159,465 @@ align-items: center;
         text-align: center;
     }
     /* EVENTS PAGE END */
+   
+    /* EVENTS DETAILS PAGE START  */
+    #events-details-container{
+        background-color: #E9ECEF;
+        height: 100rem ;
+        width: 100%;
+    }
+   
 
-    /* EVENTS DETAIL PAGE START  */
+    #navbar-location{
+        margin-right: 2rem;
+    }
+    #navbar-location a{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    #navbar-location a:hover{
+        color: #002147;;
+    }
+    #navbar-location i{
+        font-size: 12px;
+        color: #fdbb18;
+    }
+    #navbar-title i{
+        color: #fdbb18;
+    }
+    #events-details-background-container{
+     
+     height: 33.25rem;
+    }
+    #events-details-background{
+        position: relative;
+        background-image:url(./img/event_cover_3.jpg) ;
+        height: 33.25rem;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-attachment: fixed;
+        background-size: cover;
+       
+    }
+   #events-details-title{
+       
+       margin:0 auto;
+       width: 100%;
+       height: 12.7rem;
+       padding-top: 3rem;
+       padding-left: 3rem;
+   }
+   #events-details-title h1{
+       color: white;
+       text-shadow: 2px 2px black;
+       font-size: 56px;
+       font-weight: 300;
+       
+   }
+   #events-details-title h2{
+       margin-top: 1rem;
+       text-shadow: 2px 2px black;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    
+   }
+   #events-details-main{
+    width: 100%;
+    height: auto;
+   }
+   #events-details-content-holder{
+       
+       top: 22rem;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       position: absolute;
+       margin:0 auto;
+       width: 43rem;
+       height: 80rem;
+       background-color: white;
+       
+   }
+   #events-details-content-top{
+    width: 43rem;
+       height: 17rem;
+       
+   }
+   #tickets{
+       
+       height: 3.5rem;
+       
+   }
+   #tickets span{
+       color: rgb(102, 102, 102);
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 55px;
+       margin-left: 2rem;
+   }
+   #tickets-info{
+       height: 9.375rem;
+       background-color: #f9f8f6;
+       border-top: 1px solid gainsboro;
+       border-bottom: 1px solid gainsboro;
+   }
+   #tickets-info h5{
+       
+       color: rgb(33,37,41);
+       font-size: 17.5px;
+       font-weight: 500;
+   }
+   .tickets-select{
+       margin-left:auto ; 
+       margin-right: 1rem;
+   }
+   .tickets-select select{
+      
+        border:1px solid gainsboro;
+        appearance: none;
+        font-size: 16px;
+        padding-left: 10px;
+        border-radius: 5px;
+        width: 51px;
+        height: 38px;
+        background: url(./img/download.svg) no-repeat  right white;
+        background-size: 20%;
+        background-position-x:80%;
+        outline: none;
+   }
+   .tickets-select select:focus{
+    border:1px       solid #fdbb18;
+    box-shadow: 0 0 10px#fdbb18;
+   }
+   .tickets-select option{
+       font-size: 16px;
+       
+   }
+   #tickets-standart{
+       border-bottom: 1px solid gainsboro;
+      padding-left: 1rem;
+       height: 4.687rem;
+       align-items: center;
+       display: flex;
+   }
+   #tickets-vip{
+    margin-left: 1rem;
+    height: 4.687rem;
+       display: flex;
+       align-items: center;
+   }
+   .tickets-text span{
+       color: rgba(33,37,41,0.5);
+       font-size: 11.2px;
+       font-weight: 400;
+   }
+   #ed-register-button{
+       align-items: center;
+       height: 4.125rem;
+       line-height: 65px;
+       display: flex;
+       justify-content: flex-end;
+       margin-right: 0.4rem;
+   }
+  #ed-register-button button{
+    background-color: #fdbb18;
+    border:1px solid #fdbb18;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(33,37,41);
+    padding: 0.5rem 6rem;
+  }
+  #events-details-article-aside-holder{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  #events-details-article{
+    width: 43rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #events-details-article h5{
+      color: rgb(33, 37, 41);
+      font-size: 17.5px;
+      font-weight: 500;
+      
+  }
+  #events-details-article-bottom-text{
+      border-left: 3px solid #002147;
+      height: 5rem;
+      
+      background-color: #f9f8f6;
+      margin-top: 1rem;   
+  }
+  .yt1{
+      padding-top: 1rem;
+      color: rgb(33, 37, 41);
+      font-size: 20px;
+      font-weight: 300;
 
+  }
+  .yt2{
+    padding-top: 1rem;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(33, 37, 41);
+
+  }
+  .yt2 a{
+      text-decoration: none;
+      color: rgb(33, 37, 41);
+  }
+  .yt2 a:hover{
+      color: rgba(180, 140, 10);
+  }
+  .yt3{
+    padding-top: 1.1rem;
+    line-height: 22px;
+    padding-left: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+  #events-details-aside{
+      margin-top: 3rem;
+      padding-left: 3rem;
+      background-color: #f9f8f6;
+      width: 43rem;
+     
+  }
+  #events-details-aside a{
+      text-decoration:none;
+  }
+  #events-details-aside h6{
+      padding-top: 2rem;
+      color: rgba(33,37,41,0.5);
+      font-size: 14px;
+      font-weight: 500;
+  }
+  #events-details-aside h5{
+      padding-top: 1rem;
+      color: rgb(33,37,41);
+      font-size: 17.5px;
+      font-weight: 500;
+  }
+  .st1{
+      line-height: 35px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(33,37,41);
+  }
+  #datetime-flex{
+      display: flex;
+  }
+  .st2{
+    color: rgba(33,37,41,0.7);
+    line-height: 40px;
+      font-size: 11.2px;
+      font-weight: 400;
+  }
+  .st3{
+      color: rgb(33, 37, 41);
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 60px;
+  }
+  .st4{
+      color: rgb(33,37,41);
+      font-size: 14px;
+      line-height: 22px;
+
+  }
+  #ed-datetime{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+  }
+  #ed-datetime a{
+      padding-left: 0.5rem;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(51, 51, 51);
+  }
+  #ed-datetime a:hover{
+
+  }
+  #ed-location{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+  }
+  #ed-location a{
+      color: rgb(51, 51, 51);
+      font-size: 14px;
+      text-decoration: none;
+      padding-left: 0.5rem;
+      margin-top: 1rem;
+  }
+  #ed-location a:hover{
+      color: rgb(200, 140, 120);
+  }
+  #ed-location i{
+      color: black;
+      font-size: 14px;
+  }
+  #direction-container{
+      margin-top: 1rem;
+  }
+  #ed-organizer{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+    
+  }
+  #ed-organizer h4{
+      color: rgb(33, 37, 41);
+      font-size: 21px;
+      font-weight: 500;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+  #ed-organizer i{
+      font-size: 12px;
+      color: black;
+  }
+  #ed-share p{
+      color:rgb(33, 37, 41);
+      font-size: 14px;
+      padding-top: 1rem;
+  }
+  #ed-share i{
+      font-size: 13px !important;
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+      
+    background-color: white  ;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+  }
+  #ed-facebook{
+    color: #3B5999;
+  }
+  #ed-facebook:hover{
+    color: #3B5999;
+    background-color: gainsboro;
+  }
+  #ed-twitter{
+    color: #55ACEE;
+  }
+  #ed-twitter:hover{
+    color: #55ACEE;;
+    background-color: gainsboro;
+  }
+  #ed-linkedin{
+    color: #0077B5;
+  }
+  #ed-linkedin:hover{
+    color: #0077B5;
+    background-color: gainsboro;
+  }
+  #ed-whatsapp{
+    color: #25d366;
+  }
+  #ed-whatsapp:hover{
+    color: #25d366;
+    background-color: gainsboro;
+  }
+  #ed-pinterest{
+    color: #C8232C;
+  }
+  #ed-pinterest:hover{
+    color: #C8232C;
+    background-color: gainsboro;
+  }
+  #ed-envelope{
+    color: black;
+  }
+  #ed-envelope:hover{
+    color: black;
+    background-color: gainsboro;
+  }
+  #ed-social-container{
+      margin-top: 1rem;
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+      justify-content: flex-start;
+      
+  }
+  #ed-social-container a{
+
+  }
+  #ed-footer{
+    margin-top: 10rem;
+    bottom: 0;
+  
+    background-color: #002147;
+}
+#footer-text{
+    
+    padding-top: 2.2rem;
+    padding-bottom: 1rem;
+    display: flex;
+   justify-content: center;
+}
+#footer-text h5{
+    color: #ffffff;
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text p{
+    width: 28rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text ul{
+    margin-top: 1rem;
+    list-style: none;
+}
+#footer-text i{
+    color: #ffffff;
+}
+#useful{
+  
+}
+#footer-about{
+   margin-left: 3rem;
+   
+}
+#connect{
+    margin-left: 3rem;
+}
+#social-media i{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    
+}
     
     }
     
@@ -12895,7 +13540,7 @@ align-items: center;
     align-items: center;
     display:flex;
     flex-direction: column;
-  
+   
     line-height: 21px;
     padding: 8px 16px 8px 16px;
     width: 100% !important;
@@ -13418,6 +14063,472 @@ align-items: center;
         padding: 2.625px 4.2px 2.626px 4.2px;
         text-align: center;
     }
+    /* EVENTS DETAILS PAGE START  */
+    #events-details-container{
+        background-color: #E9ECEF;
+        height: 100rem ;
+        width: 100%;
+    }
+   
+
+    #navbar-location{
+        margin-right: 2rem;
+    }
+    #navbar-location a{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    #navbar-location a:hover{
+        color: #002147;;
+    }
+    #navbar-location i{
+        font-size: 12px;
+        color: #fdbb18;
+    }
+    #navbar-title i{
+        color: #fdbb18;
+    }
+    #events-details-background-container{
+     
+     height: 33.25rem;
+    }
+    #events-details-background{
+        position: relative;
+        background-image:url(./img/event_cover_3.jpg) ;
+        height: 33.25rem;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-attachment: fixed;
+        background-size: cover;
+       
+    }
+    .navbar-holder{
+    align-items: flex-start !important; 
+    display: flex;
+    flex-direction: column;
+    line-height: 21px;
+    padding: 8px 16px 8px 16px;
+    width: 100% !important;
+    }
+   #events-details-title{
+       
+       margin:0 auto;
+       width: 100%;
+       height: 12.7rem;
+       padding-top: 3rem;
+       padding-left: 1rem;
+   }
+   #events-details-title h1{
+       color: white;
+       text-shadow: 2px 2px black;
+       font-size: 36px;
+       font-weight: 300;
+       
+   }
+   #events-details-title h2{
+       margin-top: 1rem;
+       text-shadow: 2px 2px black;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    
+   }
+   #events-details-main{
+    width: 100%;
+    height: auto;
+   }
+   #events-details-content-holder{
+       
+       top: 22rem;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       position: absolute;
+       margin:0 auto;
+       width: 21.5rem;
+       height: 80rem;
+       background-color: white;
+       
+   }
+   #events-details-content-top{
+    width: 21.5rem;
+       height: 17rem;
+       
+   }
+   #tickets{
+       
+       height: 3.5rem;
+       
+   }
+   #tickets span{
+       color: rgb(102, 102, 102);
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 55px;
+       margin-left: 2rem;
+   }
+   #tickets-info{
+       height: 9.375rem;
+       background-color: #f9f8f6;
+       border-top: 1px solid gainsboro;
+       border-bottom: 1px solid gainsboro;
+   }
+   #tickets-info h5{
+       
+       color: rgb(33,37,41);
+       font-size: 17.5px;
+       font-weight: 500;
+   }
+   .tickets-select{
+       margin-left:auto ; 
+       margin-right: 1rem;
+   }
+   .tickets-select select{
+      
+        border:1px solid gainsboro;
+        appearance: none;
+        font-size: 16px;
+        padding-left: 10px;
+        border-radius: 5px;
+        width: 51px;
+        height: 38px;
+        background: url(./img/download.svg) no-repeat  right white;
+        background-size: 20%;
+        background-position-x:80%;
+        outline: none;
+   }
+   .tickets-select select:focus{
+    border:1px       solid #fdbb18;
+    box-shadow: 0 0 10px#fdbb18;
+   }
+   .tickets-select option{
+       font-size: 16px;
+       
+   }
+   #tickets-standart{
+       border-bottom: 1px solid gainsboro;
+      padding-left: 1rem;
+       height: 4.687rem;
+       align-items: center;
+       display: flex;
+   }
+   #tickets-vip{
+    margin-left: 1rem;
+    height: 4.687rem;
+       display: flex;
+       align-items: center;
+   }
+   .tickets-text span{
+       color: rgba(33,37,41,0.5);
+       font-size: 11.2px;
+       font-weight: 400;
+   }
+   #ed-register-button{
+       align-items: center;
+       height: 4.125rem;
+       line-height: 65px;
+       display: flex;
+       justify-content: center;
+       
+   }
+  #ed-register-button button{
+    background-color: #fdbb18;
+    border:1px solid #fdbb18;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(33,37,41);
+    padding: 0.5rem 8.8rem;
+  }
+  #events-details-article-aside-holder{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  #events-details-article{
+    width: 21.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #events-details-article h5{
+      color: rgb(33, 37, 41);
+      font-size: 17.5px;
+      font-weight: 500;
+      
+  }
+  #events-details-article-bottom-text{
+      border-left: 3px solid #002147;
+      height: 5rem;
+      
+      background-color: #f9f8f6;
+      margin-top: 1rem;   
+  }
+  .yt1{
+      padding-top: 1rem;
+      color: rgb(33, 37, 41);
+      font-size: 20px;
+      font-weight: 300;
+
+  }
+  .yt2{
+    padding-top: 1rem;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(33, 37, 41);
+
+  }
+  .yt2 a{
+      text-decoration: none;
+      color: rgb(33, 37, 41);
+  }
+  .yt2 a:hover{
+      color: rgba(180, 140, 10);
+  }
+  .yt3{
+    padding-top: 1.1rem;
+    line-height: 22px;
+    padding-left: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+  }
+  #events-details-aside{
+      margin-top: 3rem;
+      padding-left: 3rem;
+      background-color: #f9f8f6;
+      width: 21.5rem;
+     
+  }
+  #events-details-aside a{
+      text-decoration:none;
+  }
+  #events-details-aside h6{
+      padding-top: 2rem;
+      color: rgba(33,37,41,0.5);
+      font-size: 14px;
+      font-weight: 500;
+  }
+  #events-details-aside h5{
+      padding-top: 1rem;
+      color: rgb(33,37,41);
+      font-size: 17.5px;
+      font-weight: 500;
+  }
+  .st1{
+      line-height: 35px;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(33,37,41);
+  }
+  #datetime-flex{
+      display: flex;
+  }
+  .st2{
+    color: rgba(33,37,41,0.7);
+    line-height: 40px;
+      font-size: 11.2px;
+      font-weight: 400;
+  }
+  .st3{
+      color: rgb(33, 37, 41);
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 60px;
+  }
+  .st4{
+      color: rgb(33,37,41);
+      font-size: 14px;
+      line-height: 22px;
+
+  }
+  #ed-datetime{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+  }
+  #ed-datetime a{
+      padding-left: 0.5rem;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(51, 51, 51);
+  }
+  #ed-datetime a:hover{
+
+  }
+  #ed-location{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+  }
+  #ed-location a{
+      color: rgb(51, 51, 51);
+      font-size: 14px;
+      text-decoration: none;
+      padding-left: 0.5rem;
+      margin-top: 1rem;
+  }
+  #ed-location a:hover{
+      color: rgb(200, 140, 120);
+  }
+  #ed-location i{
+      color: black;
+      font-size: 14px;
+  }
+  #direction-container{
+      margin-top: 1rem;
+  }
+  #ed-organizer{
+    border-bottom: 1px solid gainsboro;
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+    
+  }
+  #ed-organizer h4{
+      color: rgb(33, 37, 41);
+      font-size: 21px;
+      font-weight: 500;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+  #ed-organizer i{
+      font-size: 12px;
+      color: black;
+  }
+  #ed-share p{
+      color:rgb(33, 37, 41);
+      font-size: 14px;
+      padding-top: 1rem;
+  }
+  #ed-share i{
+      font-size: 13px !important;
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+      
+    background-color: white  ;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    font-size: 12px;
+    text-indent: 0;  
+  }
+  #ed-facebook{
+    color: #3B5999;
+  }
+  #ed-facebook:hover{
+    color: #3B5999;
+    background-color: gainsboro;
+  }
+  #ed-twitter{
+    color: #55ACEE;
+  }
+  #ed-twitter:hover{
+    color: #55ACEE;;
+    background-color: gainsboro;
+  }
+  #ed-linkedin{
+    color: #0077B5;
+  }
+  #ed-linkedin:hover{
+    color: #0077B5;
+    background-color: gainsboro;
+  }
+  #ed-whatsapp{
+    color: #25d366;
+  }
+  #ed-whatsapp:hover{
+    color: #25d366;
+    background-color: gainsboro;
+  }
+  #ed-pinterest{
+    color: #C8232C;
+  }
+  #ed-pinterest:hover{
+    color: #C8232C;
+    background-color: gainsboro;
+  }
+  #ed-envelope{
+    color: black;
+  }
+  #ed-envelope:hover{
+    color: black;
+    background-color: gainsboro;
+  }
+  #ed-social-container{
+      margin-top: 1rem;
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+      justify-content: flex-start;
+      
+  }
+  #ed-social-container a{
+
+  }
+  #ed-footer{
+    margin-top: 18rem;
+    bottom: 0;
+  
+    background-color: #002147;
+}
+#footer-text{
+    
+    padding-top: 2.2rem;
+    padding-bottom: 1rem;
+    display: flex;
+   justify-content: center;
+}
+#footer-text h5{
+    color: #ffffff;
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text p{
+    width: 100%;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+#footer-text ul{
+    margin-top: 1rem;
+    list-style: none;
+}
+#footer-text i{
+    color: #ffffff;
+}
+#useful{
+  
+}
+#footer-about{
+   margin-left: 1rem;
+   
+}
+#connect{
+    margin-left: 1rem;
+}
+#social-media i{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    
+}
     }
     /* GLOBAL CSS */
 

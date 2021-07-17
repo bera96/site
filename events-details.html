@@ -73,7 +73,7 @@
     </section>
    
     <nav id="navbar-container-parent">
-        <div id="navbar-container">
+        <div class="navbar-holder" id="navbar-container">
             <div id="navbar-title">
                 <a href="events.html">
                     <i class="fas fa-long-arrow-alt-left"></i>
@@ -96,7 +96,7 @@
             </div>
         </div>
     </nav>
-
+  
     <section id="events-details-container">
 
     <section id="events-details-background-container">
@@ -107,7 +107,7 @@
             </div>
         </div>
     </section>
-
+ 
     <section id="events-details-main">
         <div id="events-details-content-holder">
             <div id="events-details-content-top">
@@ -162,6 +162,7 @@
                     </button>
                 </div>
             </div>
+            
             <div id="events-details-article-aside-holder">
                 <div id="events-details-article">
                     <h5>Here it is, the 12th edition of our Live Musical Festival !</h5>
@@ -173,6 +174,7 @@
                         <p class="yt3">We reserve the right to cancel, re-name or re-locate the event or change the dates on which it is held in case the weather fails us.</p>
                     </div>
                 </div>
+                
                 <div id="events-details-aside">
                     <div id="ed-datetime">
                         <h6>DATE & TIME</h6>
@@ -195,7 +197,7 @@
                     <div id="ed-location">
                         <h6>LOCATION</h6>
                         <span class="st3">Wembley Stadium</span><br>
-                        <span class="st1">Wembley HA9 0WS
+                        <span class="st4">Wembley HA9 0WS
                             <br>
                             London
                             <br>
@@ -203,8 +205,10 @@
                             <br>
                             United Kingdom
                         </span><br>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <a href="">Get the direction</a>
+                        <div id="direction-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="">Get the direction</a>
+                        </div>
                     </div>
                     <div id="ed-organizer">
                         <h6>ORGANIZER</h6>
@@ -215,14 +219,17 @@
                         <span class="st1">info@yourcompany.com</span>
                     </div>
                     <div id="ed-share">
-                        <h6>Share</h6>
+                        <h6>SHARE</h6>
                         <p>Find out what people see and say about this event, and join the conversation.</p>
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a href=""><i class="fab fa-whatsapp"></i></a>
-                        <a href=""><i class="fab fa-pinterest"></i></a>
-                        <a href=""><i class="fas fa-envelope"></i></a>
+                        <div id="ed-social-container">
+                            <a href=""><i id="ed-facebook" class="fab fa-facebook-f"></i></a>
+                            <a href=""><i id="ed-twitter" class="fab fa-twitter"></i></a>
+                            <a href=""><i id="ed-linkedin" class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i id="ed-whatsapp" class="fab fa-whatsapp"></i></a>
+                            <a href=""><i id="ed-pinterest" class="fab fa-pinterest"></i></a>
+                            <a href=""><i id="ed-envelope" class="fas fa-envelope"></i></a>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -230,6 +237,55 @@
     </section>
 
 </section>
-  
+<footer>
+    <div id="ed-footer">
+        <div id="footer-text">
+            <div id="useful">
+                <h5>Useful Links</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+            </div>
+            <div id="footer-about">
+                <h5>About us</h5>
+                <p>We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.
+                    <br>
+                    <br>
+
+                    Our products are designed for small to medium size companies willing to optimize their performance.</p>
+            </div>
+            <div id="connect">
+                <h5>Connect with us</h5>
+                <ul>
+                    <li><i class="fa fa-comment"></i>
+                        <span><a href="#">Contact us</a></span>
+                    </li>
+                    <li><i class="fa fa-envelope"></i>
+                        <span> <a href="">info@yourcompany.example.com</a></span>
+                    </li>
+                    <li><i class="fa fa-phone"></i>
+                        <span><a href="">+1 (650) 691-3277</a></span>
+                    </li>
+                </ul>
+                <div id="social-media">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a href=""><i class="fas fa-home"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   
+</footer>
+
+  <script src="nav.js"></script>
 </body>
 </html>
