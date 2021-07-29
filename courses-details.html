@@ -148,14 +148,12 @@
             </div>
 
             <div id="image-bottom-flex">
-                <ul id="bottom-flex-links">
-                    <li id="ibf1"><a href="">OVERVIEW</a></li>
-                    <li id="ibf2"><a href="">REVIEW</a></li>
-                    <li id="ibf3"><a href="">Q & A</a></li>
-                    <li id="ibf4"><a href="">BLOG </a></li>
-                </ul>
+                <button class="tab-btn active" data-id="overview">OVERVIEW</button>
+                <button class="tab-btn" data-id="review">REVIEW</button>
+                <button class="tab-btn" data-id="qa">Q & A</button>
+                <button class="tab-btn" data-id="blog">BLOG</button>
             </div>
-         
+         <div class="cd-content" id="qa">
             <div id="course-q-and-a">
                 <div class="entry-title">
                     <a href="#">What is the difference between 2.7 search() and 3.1 search()?</a>
@@ -203,10 +201,10 @@
  
 
             </div>
-           
+        </div>
             
              
-             <div id="blogs">
+             <div class="cd-content" id="blog">
                  <div class="blog">
                      <div class="blog-date-b" >
                          <p class="blog-dd">14</p>
@@ -221,7 +219,7 @@
             
              
             
-            <div id="course-review">
+            <div class="cd-content" id="review">
                 <div id="course-comments-image">
                     <img src="./img/6.jpg" alt="">
                 </div>
@@ -245,7 +243,7 @@
             </div>
           
             
-            
+           <div class="cd-content active" id="overview" >
             <div id="cd-description">
                 <h2>Description</h2>
                 <div id="cd-description-text">
@@ -339,6 +337,7 @@
                
 
             </div>
+        </div> 
            
         </div> 
 

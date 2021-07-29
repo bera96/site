@@ -1937,7 +1937,34 @@
     }
     #image-bottom-flex{
         margin-top: 2rem;
+        display: flex;
         
+        
+    }
+    .tab-btn{
+        cursor: pointer;
+        width: 7.2rem;
+        height: 4rem;
+        text-align: center;
+        border: 1px solid gainsboro;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.06rem;
+        color: #002147;
+    }
+    .tab-btn:hover:not(.active){
+        background-color: whitesmoke;
+    }
+    .tab-btn.active{
+        background-color: #002147;
+        color: white;
+    }
+    .cd-content{
+        display: none !important;
+    }
+    .cd-content.active{
+        display: block !important;
     }
     #bottom-flex-links{
         
@@ -2288,11 +2315,13 @@
          font-weight: 700;
          line-height: 18px;
      }
-     #course-review{
+     #review{
+         
          margin-top: 2rem;
          display: flex;
+        
      }
-     #course-review textarea{
+     #review textarea{
          border:1px gainsboro solid;
          color: #495057;
          border-radius: 0.3rem;
@@ -2306,7 +2335,7 @@
          font-weight: 400;
          transition: all ease-in-out 0.15s;
      }
-     #course-review textarea:focus{
+     #review textarea:focus{
          border:1px       solid #fdbb18;
          box-shadow: 0 0 10px#fdbb18;
      }
@@ -2344,6 +2373,9 @@
          font-size: 16px;
          border:none;
          padding: 0.75rem;
+     }
+     #qa{
+         
      }
      #course-q-and-a{
          margin-top: 2rem;
@@ -2393,7 +2425,8 @@
          background-color: #fdbb18;
          padding:0.6rem 1rem;
      }
-     #blogs{
+     #blog{
+         
          margin-top: 2rem;
      }
      
@@ -6781,8 +6814,34 @@ align-items: center;
         width: 42rem;
     }
     #image-bottom-flex{
+        display: flex;
         margin-top: 2rem;
         
+    }
+    .tab-btn{
+        cursor: pointer;
+        width: 7.2rem;
+        height: 4rem;
+        text-align: center;
+        border: 1px solid gainsboro;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.06rem;
+        color: #002147;
+    }
+    .tab-btn:hover:not(.active){
+        background-color: whitesmoke;
+    }
+    .tab-btn.active{
+        background-color: #002147;
+        color: white;
+    }
+    .cd-content{
+        display: none !important;
+    }
+    .cd-content.active{
+        display: block !important;
     }
     #bottom-flex-links{
         
@@ -7117,11 +7176,12 @@ align-items: center;
         font-weight: 700;
         line-height: 18px;
     }
-    #course-review{
+    #review{
+    
         margin-top: 2rem;
         display: flex;
     }
-    #course-review textarea{
+    #review textarea{
         border:1px gainsboro solid;
         color: #495057;
         border-radius: 0.3rem;
@@ -7135,7 +7195,7 @@ align-items: center;
         font-weight: 400;
         transition: all ease-in-out 0.15s;
     }
-    #course-review textarea:focus{
+    #review textarea:focus{
         border:1px       solid #fdbb18;
         box-shadow: 0 0 10px#fdbb18;
     }
@@ -7223,7 +7283,7 @@ align-items: center;
         background-color: #fdbb18;
         padding:0.6rem 1rem;
     }
-    #blogs{
+    #blog{
         margin-top: 2rem;
     }
     
@@ -11637,9 +11697,35 @@ align-items: center;
         width: 21rem;
     }
     #image-bottom-flex{
-        
+        display: flex;
         margin-top: 2rem;
+        margin-right: 1.3rem;
         
+    }
+    .tab-btn{
+        cursor: pointer;
+        width: 7.2rem;
+        height: 4rem;
+        text-align: center;
+        border: 1px solid gainsboro;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.06rem;
+        color: #002147;
+    }
+    .tab-btn:hover:not(.active){
+        background-color: whitesmoke;
+    }
+    .tab-btn.active{
+        background-color: #002147;
+        color: white;
+    }
+    .cd-content{
+        display: none !important;
+    }
+    .cd-content.active{
+        display: block !important;
     }
     #bottom-flex-links{
         
@@ -11979,11 +12065,11 @@ align-items: center;
         font-weight: 700;
         line-height: 18px;
     }
-    #course-review{
+    #review{
         margin-top: 2rem;
         display: flex;
     }
-    #course-review textarea{
+    #review textarea{
         border:1px gainsboro solid;
         color: #495057;
         border-radius: 0.3rem;
@@ -11997,7 +12083,7 @@ align-items: center;
         font-weight: 400;
         transition: all ease-in-out 0.15s;
     }
-    #course-review textarea:focus{
+    #review textarea:focus{
         border:1px       solid #fdbb18;
         box-shadow: 0 0 10px#fdbb18;
     }
@@ -12087,7 +12173,7 @@ align-items: center;
         background-color: #fdbb18;
         padding:0.6rem 1rem;
     }
-    #blogs{
+    #blog{
         margin-top: 2rem;
     }
     
